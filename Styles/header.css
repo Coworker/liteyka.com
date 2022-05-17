@@ -1,0 +1,160 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    /* This style below will be inherited */
+    font-family: Roboto, Arial;
+    margin: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+.header {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    align-items: center;
+    background-color: #245574;
+}
+
+.header-border {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+    align-items: center;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phones-block {
+    display: block;
+    color: white;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.first-number {
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.second-number {
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+.emails {
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+    justify-items: left;
+}
+
+.references-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social-media {
+    margin-right: 30px;
+}
+
+@media (max-width: 685px)
+/*643px for 3 icons */
+
+{
+    .social-media {
+        display: none;
+        align-items: center;
+    }
+}
+
+@media (max-width: 448px) {
+    .emails {
+        display: none;
+    }
+}
+
+.instagram-button,
+.facebook-button,
+.youtube-button,
+.viber-button,
+.telegram-button {
+    text-decoration: none;
+}
+
+.instagram-icon,
+.facebook-icon,
+.youtube-icon,
+.viber-icon,
+.telegram-icon {
+    height: 26x;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 17px;
+    cursor: pointer;
+    background-color: rgb(219, 218, 218);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(69, 74, 83, 0.747);
+}
+
+.instagram-icon:hover,
+.facebook-icon:hover,
+.youtube-icon:hover,
+.viber-icon:hover,
+.telegram-icon:hover {
+    border-color: black;
+    filter: invert(1);
+}
+
+.languages {
+    display: flex;
+    color: white;
+    margin-right: 5px;
+}
+
+.ua-language,
+.ru-language,
+.eng-language {
+    font-size: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.eng-language {
+    margin-right: 10px;
+}
+
+.ua-language {
+    color: rgb(183, 188, 223);
+}
+
+.eng-language {
+    color: rgb(183, 188, 223);
+}
+
+.ua-language:hover,
+.ru-language:hover,
+.eng-language:hover {
+    text-decoration: underline;
+}
