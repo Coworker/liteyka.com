@@ -52,6 +52,8 @@
 .tabs-nav-button-main h3 {
     margin: 5px;
     text-align: left;
+    text-decoration: none;
+    color: black;
 }
 
 .tabs-nav-button img,

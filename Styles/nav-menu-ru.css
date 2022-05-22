@@ -54,7 +54,7 @@ nav li a {
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
     color: rgb(210, 212, 218);
-    width: 540px;
+    width: 520px;
     text-align: left;
 }
 
@@ -80,7 +80,7 @@ nav li a {
     transition: 0.15s;
 }
 
-@media (max-width: 1265px) {
+@media (max-width: 1220px) {
     .logo-text {
         margin-left: 5px;
         font-size: 25px;
@@ -97,7 +97,7 @@ nav li a {
     }
 }*/
 
-@media (min-width: 883px) {
+@media (min-width: 863px) {
     .nav-menu-button {
         display: none;
     }
@@ -106,7 +106,7 @@ nav li a {
     }
 }
 
-@media (max-width: 883px) {
+@media (max-width: 863px) {
     .nav-buttons {
         display: none;
     }
@@ -193,7 +193,7 @@ nav li a {
     color: #605245;
 }
 
-@media (min-width: 882px) {
+@media (min-width: 862px) {
     .nav-menu-button {
         display: none;
     }

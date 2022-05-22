@@ -43,8 +43,9 @@
 }
 
 .projects-border-video img {
-    width: 100%;
+    width: 95%;
     height: auto;
+    max-width: 500px;
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
@@ -58,6 +59,13 @@
 @media (max-width: 1320px) {
     .projects-border,
     .projects-container-galery,
+    .projects-border-video img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 520px) {
     .projects-border-video img {
         margin-left: 10px;
         margin-right: 10px;

@@ -68,12 +68,13 @@
 
 @media (max-width: 520px) {
     .map-container {
+        height: 600px;
         width: 400px;
     }
 }
 
 @media (max-width: 420px) {
     .map-container {
-        width: auto;
+        width: 350px;
     }
 }
