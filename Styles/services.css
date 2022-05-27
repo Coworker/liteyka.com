@@ -1,88 +1,119 @@
-    .services-main-contaiber {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .services-border {
-        display: block;
-    }
-    
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.services-main-contaiber {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-border {
+    display: block;
+}
+
+.paragraph-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1300px;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-bottom: 32px;
+    margin-bottom: 20px;
+    border-bottom-color: rgb(167, 167, 167);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.title-services {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.text-block-services {
+    margin: 0 0 10px 0;
+}
+
+.picture-services {
+    height: 300px;
+    box-shadow: rgb(150, 150, 150) 1px 1px 23px 4px;
+    border-radius: 10px;
+    margin: 10px 0 10px 20px;
+}
+
+.picture-services-2 {
+    width: 400px;
+    box-shadow: rgb(150, 150, 150) 1px 1px 23px 4px;
+    border-radius: 10px;
+    margin: 10px 0 10px 20px;
+}
+
+@media (max-width: 1320px) {
     .paragraph-services {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 1300px;
-        align-items: flex-start;
-        padding-top: 10px;
-        margin-bottom: 20px;
+        margin-left: 13px;
+        margin-right: 13px;
     }
-    
-    .services-main-picture {
-        width: 500px;
-        padding: 10px;
-    }
-    
-    .title-services {
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-        max-width: 1300px;
-        align-items: flex-start;
-        padding-top: 20px;
-        margin-bottom: 0px;
-    }
-    
-    .text-block-services {
-        margin: 0 10px 10px 10px;
-    }
-    
-    .picture-services {
-        height: 300px;
-        box-shadow: rgb(150, 150, 150) 1px 1px 23px 4px;
-        border-radius: 10px;
-        margin: 10px;
-    }
-    
+}
+
+@media (max-width: 1260px) {
     .picture-services-2 {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .paragraph-services {
+        flex-direction: column;
+    }
+    .picture-services {
+        height: auto;
         width: 400px;
-        box-shadow: rgb(150, 150, 150) 1px 1px 23px 4px;
-        border-radius: 10px;
-        margin: 10px;
+        margin-left: 0;
+        margin-right: 0;
     }
-    
-    @media (max-width: 1260px) {
-        .picture-services-2 {
-            width: 350px;
-        }
+    .picture-services-2 {
+        margin-left: 0;
+        margin-right: 0;
     }
-    
-    @media (max-width: 1100px) {
-        .paragraph-services {
-            flex-direction: column;
-        }
-        .picture-services {
-            height: auto;
-            width: 400px;
-        }
+}
+
+@media (max-width: 520px) {
+    .services-main-picture {
+        width: 100%;
+        height: auto;
     }
-    
-    @media (max-width: 448px) {
-        .paragraph-services {
-            justify-items: center;
-        }
-        .services-main-picture {
-            width: 95%;
-            margin: 10px auto 10px;
-        }
-        .picture-services {
-            width: 95%;
-            margin: 10px auto 10px;
-        }
-        .picture-services-2 {
-            width: 95%;
-            margin: 10px auto 10px;
-        }
+    .picture-services,
+    .picture-services-2 {
+        height: auto;
+        width: 100%;
     }
+}
+
+@media (max-width: 448px) {
+    .paragraph-services {
+        justify-items: center;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+    .services-main-picture {
+        width: 95%;
+        margin: 10px auto 10px;
+    }
+    .picture-services {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .picture-services-2 {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+}

@@ -24,7 +24,6 @@
 .navigation-block {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
 }
 
 .footer-contact-block {
@@ -58,6 +57,7 @@
     padding-right: 10px;
     align-items: center;
     justify-items: left;
+    text-decoration: none;
 }
 
 .bottom-border {
@@ -73,6 +73,12 @@
 .bottom-border h3 {
     color: rgb(146, 146, 146);
     text-align: center;
+}
+
+@media (max-width: 1330px) {
+    .navigation-block {
+        margin-left: 15px;
+    }
 }
 
 @media (max-width: 448px) {

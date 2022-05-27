@@ -49,12 +49,14 @@ body {
     margin: 2px;
     color: white;
     text-decoration: none;
+    display: block;
 }
 
 .second-number {
     margin: 2px;
     color: white;
     text-decoration: none;
+    display: block;
 }
 
 .emails {
@@ -63,6 +65,7 @@ body {
     padding-right: 10px;
     align-items: center;
     justify-items: left;
+    text-decoration: none;
 }
 
 .references-block {
