@@ -8,12 +8,15 @@
     margin-bottom: 20px;
 }
 
-.contacs-text {
+.ccontact-text {
     display: block;
     margin-right: 10px;
     padding: 2px;
     margin-left: 15px;
     text-decoration: none;
+    -webkit-text-decoration: none;
+    -webkit-text-decoration-color: rgb(0, 0, 0);
+    color: black;
 }
 
 .icon-container {
