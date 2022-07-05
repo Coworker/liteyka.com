@@ -1,1 +1,1 @@
-# liteyka.com
+# liteyka.com.ua

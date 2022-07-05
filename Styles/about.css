@@ -1,9 +1,15 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
 .about-container {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-height: calc(100vh - 106px - 291px);
 }
 
 .about-border {
@@ -21,11 +27,13 @@
 .title-text-about {
     text-align: left;
     margin-bottom: 10px;
+    font-size: 18.72px;
 }
 
 .description-text-about {
     font-weight: 100;
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .picture-about {
