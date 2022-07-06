@@ -34,7 +34,7 @@ function onTabclick(item) {
 
 
 //кнопка материала. Пересылка на страницу галереи с нужным материалом
-const material_btn = document.querySelectorAll(".materials-block-child ");
+const material_btn = document.querySelectorAll(".materials-block-child");
 material_btn.forEach(onTabclick);
 
 function onTabclick(item) {
