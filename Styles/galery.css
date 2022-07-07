@@ -108,6 +108,14 @@
     display: block;
 }
 
+.button-text {
+    font-size: 15.6px;
+    font-weight: 700;
+    font-stretch: 100%;
+    text-align: left;
+    margin: 5px;
+}
+
 @media (max-width: 1110px) {
     .tabs-galery {
         grid-template-columns: 1fr 1fr 1fr;
