@@ -161,3 +161,7 @@ body {
 .eng-language:hover {
     text-decoration: underline;
 }
+
+* {
+    box-sizing: border-box
+}

@@ -33,7 +33,7 @@ function onTabclick(item) {
 }
 
 
-//кнопка материала. Пересылка на страницу галереи с нужным материалом
+//кнопка материала. Пересылка на страницу галереи с нужным материаЛВМ
 const material_btn = document.querySelectorAll(".materials-block-child");
 material_btn.forEach(onTabclick);
 

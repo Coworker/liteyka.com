@@ -71,9 +71,11 @@
     margin-right: 10px;
 }
 
-.bottom-border h3 {
+.bottom-border p {
     color: rgb(146, 146, 146);
     text-align: center;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 @media (max-width: 1330px) {

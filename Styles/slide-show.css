@@ -23,8 +23,8 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: #071a2eda;
-    padding-top: 4.7px;
-    border-radius: 10px;
+    padding-top: 4px;
+    border-radius: 9.3px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -85,7 +85,7 @@
     position: relative;
     margin: auto;
     padding-left: 5px;
-    padding-right: 4.7px;
+    padding-right: 4px;
 }
 
 .slide-pict {

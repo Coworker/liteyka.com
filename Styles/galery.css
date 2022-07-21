@@ -1,5 +1,17 @@
 .galery-container {
-    padding: 10px 20px 0 20px;
+    padding: 9px 20px 0 20px;
+}
+
+.gallery-header-1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(47, 47, 48);
+}
+
+.gallery-header-2 {
+    text-align: center;
+    font-size: 19px;
 }
 
 .tabs-galery {
@@ -52,8 +64,8 @@
     box-shadow: rgba(150, 150, 150, 0.5) 1px 1px 10px 4px;
 }
 
-.tabs-nav-button h3,
-.tabs-nav-button-main h3 {
+.tabs-nav-button span,
+.tabs-nav-button-main span {
     margin: 5px;
     text-align: left;
     text-decoration: none;
@@ -112,8 +124,9 @@
     font-size: 15.6px;
     font-weight: 700;
     font-stretch: 100%;
-    text-align: left;
     margin: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width: 1110px) {
@@ -141,8 +154,8 @@
     .tabs-nav-button-main {
         width: 100%;
     }
-    .tabs-nav-button h3,
-    .tabs-nav-button-main h3 {
+    .tabs-nav-button span,
+    .tabs-nav-button-main span {
         text-align: center;
         margin: 5px auto;
         font-size: 17px;

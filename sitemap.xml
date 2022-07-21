@@ -3,96 +3,96 @@
 	<url>
 		<loc>https://www.liteyka.com.ua</loc>
 		<priority>1.00</priority>
-		<lastmod>2022-07-07</lastmod>
+		<lastmod>2022-07-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/about-eng.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/about-ru.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/about.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/contacts-eng.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/contacts-ru.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/contacts.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/galery-eng.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/galery-ru.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
-	</url>
-	<url>
-		<loc>https://www.liteyka.com.ua/galery.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/en</loc>
+		<priority>0.67</priority>
+		<lastmod>2022-07-15</lastmod>
 	</url>
 	<url>
 		<loc>https://www.liteyka.com.ua/googlebc9e2a7c468919c7.html</loc>
-		<priority>0.50</priority>
+		<priority>0.67</priority>
 		<lastmod>2022-05-31</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/index-eng.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/ru</loc>
+		<priority>0.67</priority>
+		<lastmod>2022-07-15</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/index-ru.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/en/about.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-19</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/projects-eng.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/en/contacts.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/projects-ru.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/en/galery.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-15</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/projects.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/en/projects.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/services-eng.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/en/services.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/services-ru.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/ru/about.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-19</lastmod>
 	</url>
 	<url>
-		<loc>https://www.liteyka.com.ua/services.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2022-07-07</lastmod>
+		<loc>https://www.liteyka.com.ua/ru/contacts.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/ru/galery.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/ru/projects.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/ru/services.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/uk/about.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-19</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/uk/contacts.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/uk/galery.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-15</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/uk/projects.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-14</lastmod>
+	</url>
+	<url>
+		<loc>https://www.liteyka.com.ua/uk/services.html</loc>
+		<priority>0.33</priority>
+		<lastmod>2022-07-20</lastmod>
 	</url>
 </urlset>
